@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.btn{
+    text-align: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin: .25% 0 0 25px;
+    float: left;
+}
+.btn:hover{
+    background: lightgray;
+    cursor: pointer;
+}
+.logo{
+    float: left;
+}
+.nav{
+    height: 99%;
+    float: right;
+    margin-top: -1px;
+    margin-right: 30px;
+}
+.notlink{
+    color: black;
+    letter-spacing: 5px;
+    text-decoration: none;
+}
+.navs{
+    margin-top: 1%;
+    padding: 10px 20px;
+}
+.header{
+    height: 700px;
+    width: 100%;
+    background-image: url(architect.jpg);
+    background-size: 100% 100%;
+    padding-top: 1px;
+}
+.title{
+    height: 75px;
+    width: 300px;
+    color: white;
+    font-size: 40px;
+    margin: 25% auto;
+    padding-top: .8%;
+    box-sizing: border-box;
+}
+.br{
+    height: 200px;
+    width: 200px;
+    background-image: linear-gradient(rgb(0,0,0),rgb(0,0,0));
+    padding: 10px 20px;
+    opacity: .7;
+}
+.sec1{
+    height: 600px;
+    width: 100%;
+    padding-top: 1px;
+}
+.sec1 h1{
+    margin: 80px 0 30px 2.5%;
+    font-weight: normal;
+}
+.lnbrk{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.sec1pics{
+    height: 200px;
+    width: 22.6%;
+    margin: 10px 10px;
+    float: left;
+}
+.sec1pics p{
+    color: white;
+    background: #000;
+    position: absolute;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.picsdiv{
+    margin-left: 2.5%;
+}
+.pic1{
+    background-image: url(house5.jpg);
+    background-size: 100% 100%;
+}
+.pic2{
+    background-image: url(house2.jpg);
+    background-size: 100% 100%;
+}
+.pic3{
+    background-image: url(house3.jpg);
+    background-size: 100% 100%;
+}
+.pic4{
+    background-image: url(house4.jpg);
+    background-size: 100% 100%;
+}
+.sec2{
+    height: 780px;
+    width: 100%;
+    padding-top: 1px;
+}
+.sec2 h1{
+    margin: 80px 0 20px 2.5%;
+    font-weight: normal;
+}
+.sec2 p{
+    margin: 2.5%;
+    margin-top: -20px;
+    word-spacing: 4px;
+}
+.peoples{
+    height: 415px;
+    width: 22%;
+    margin-left: 2.4%;
+    float: left;
+}
+.pplpic{
+    height: 200px;
+    width: 100%;
+    filter: grayscale(100%);
+}
+.peoples h1{
+    margin: 0;
+    padding: 0;
+}
+.peoples h1{
+    margin-top: 10px;
+    padding: 0;
+}
+.peoples h3{
+    margin-top: 10px;
+    color: darkgray;
+    font-weight: normal;
+}
+.peoples p{
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+.cntbtn{
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background: rgba(233, 233, 233,.8);
+    margin-top: 10px;
+}
+.cntbtn:hover{
+    background: rgba(169, 169, 169, .7);
+    cursor: pointer;
+}
+.sec3{
+    height: 450px;
+    width: 100%;
+    padding-top: 1px;
+}
+.sec3 h1{
+    margin: 0 0 20px 2.5%;
+    font-weight: normal;
+}
+.sec3 p{
+    margin: -20px 0 30px 2.5%;
+}
+.inpts{
+    height: 40px;
+    width: 95%;
+    display: block;
+    border: 1px solid lightgray;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.sndbtn{
+    height: 40px;
+    width: 150px;
+    background: #000;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-left: 2.5%;
+}
+.sndbtn:hover{
+    background: lightgray;
+    color: black;
+    cursor: pointer;
+}
+.sec4{
+    height: 700px;
+    width: 95%;
+    margin: 2.5%;
+    margin-bottom: 0;
+}
+.sec4 h1{
+    margin-left: 2.5%;
+}
+.mapmarg{
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+}
+.map{
+    height: 100%;
+    width: 100%;
+}
+.ftr{
+    height: 80px;
+    width: 100%;
+    background: #000;
+    color: white;
+    text-align: center;
+    padding-top: 2.5%;
+    box-sizing: border-box;
+}
